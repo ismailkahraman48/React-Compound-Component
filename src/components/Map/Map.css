@@ -1,0 +1,7 @@
+
+@import url('/node_modules/maplibre-gl/src/css/maplibre-gl.css');
+
+.map{
+    width: 100%;
+    height:100vh;
+}
