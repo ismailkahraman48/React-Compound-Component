@@ -1,0 +1,18 @@
+.sidebar {
+    width: 50px;
+    /* transition: width 0.4s; */
+    background-color: #333 ;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar-toggle {
+    cursor: pointer;
+  }
+  
