@@ -2,7 +2,6 @@ import "./Sidebar.css";
 import { FaBars } from "react-icons/fa";
 import Accordion from "@components/Accordion/Accordion";
 import { useComponentContext } from "@contexts/ComponentContext";
-import AccordionItem from "../Accordion/AccordionItem";
 
 export default function Sidebar() {
   const { isSidebarOpen, toggleSidebar } = useComponentContext();
@@ -20,18 +19,18 @@ export default function Sidebar() {
           <Accordion className="accordion">
             <Accordion.item id="item1" className="accordion-item">
               <Accordion.title title="Item 1" className="accordion-title" />
-              <Accordion.Content className="accordion-content">
+              <Accordion.content className="accordion-content">
                 <p>Content 1</p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nihil, adipisci.
                 </p>
-              </Accordion.Content>
+              </Accordion.content>
             </Accordion.item>
 
             <Accordion.item id="item2" className="accordion-item">
               <Accordion.title title="Item 2" className="accordion-title" />
-              <Accordion.Content className="accordion-content">
+              <Accordion.content className="accordion-content">
                 <p>Content 2</p>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <h2>Content</h2>
@@ -40,7 +39,7 @@ export default function Sidebar() {
                   nulla, quis incidunt quam magnam reprehenderit assumenda sit
                   sed temporibus iure.
                 </p>
-              </Accordion.Content>
+              </Accordion.content>
             </Accordion.item>
           </Accordion>
         </div>

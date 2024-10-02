@@ -38,4 +38,4 @@ export default function Accordion({ children, className }) {
 
 Accordion.item = AccordionItem;
 Accordion.title = AccordionTitle;
-Accordion.Content = AccordionContent;
+Accordion.content = AccordionContent;
